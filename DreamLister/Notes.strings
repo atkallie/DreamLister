@@ -1,0 +1,31 @@
+/* 
+  Notes.strings
+  DreamLister
+
+  Created by Ahmed T Khalil on 2/7/17.
+  Copyright © 2017 kalikans. All rights reserved.
+*/
+
+
+/*
+ROW CARD-LIKE STYLE:
+ 
+ We made a Cocoa touch subclass of UIView (see Shadow.swift on how)
+ 
+ Then on the storyboard take notice of the background colors set for Table View, Cell, Content View, and View. And then set the attribute defined in the custom Cocoa touch class to 'On' for the View
+ 
+ For the table view in the storyboard, select 'None' for the 'Separator' field and disable 'Show Horizontal Indicator' and 'Show Vertical Indicator' under the scrolling options
+ 
+ Note that we set 'Selection' to 'None' for the Table View Cell
+ 
+NAVIGATION BAR:
+Add a Navigation Bar to the second VC
+ 
+To remove the blue, go to the navigation controller's navigation bar attribute inspector and change the tint
+ 
+To remove the 'DreamLister' title, include: self.navigationController?.navigationBar.topItem?.title = ""
+ 
+ 
+EXTRA:
+ I didn't use the CustomTextField.swift file under 'View' Group, but if you want to use it just make it the custom class for the text fields
+*/

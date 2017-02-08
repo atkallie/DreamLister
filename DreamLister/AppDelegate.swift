@@ -91,3 +91,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//context for Core Data
+let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
